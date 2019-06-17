@@ -30,3 +30,5 @@ class TestMore:
         self.page.mobile_network.click_first_network()
         # 首选网络 - 点击2g
         self.page.first_network.click_3g()
+    def test_4g(self):
+        assert 1

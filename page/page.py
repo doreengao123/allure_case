@@ -24,4 +24,5 @@ class Page:
     @property
     def setting(self):
         return SettingPage(self.driver)
-
+    def hello(self):
+        print("hello")
